@@ -1,0 +1,4 @@
+customer_id: 12345
+minecraft_backup: false
+minecraft_restore: false
+minecraft_config_change: true

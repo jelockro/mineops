@@ -1,0 +1,12 @@
+---
+- hosts: minecraft
+  vars:
+    minecraft_install: true
+  tasks:
+    - name: Deploy a Minecraft Server
+      import_role:
+        name: minecraft
+
+  collections:
+    - ansible.posix
+    - community.general
